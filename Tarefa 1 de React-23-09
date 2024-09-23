@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela de Jogos</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabela de Jogos</h1>
+    <table>
+      <head>
+        <tr>
+          <th>Nome do Jogo</th>
+          <th>Plataforma</th>
+          <th>Ano de Lançamento</th>
+        </tr>
+      </head>
+      <body>
+        <tr>
+          <td>The Legend of Zelda: Breath of the Wild</td>
+          <td>Nintendo Switch</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td>God of War</td>
+          <td>PlayStation 4</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>Red Dead Redemption 2</td>
+          <td>PlayStation 4, Xbox One, PC</td>
+          <td>2018</td>
+        </tr>
+      </body>
+    </table>
+  </body>
+</html>
