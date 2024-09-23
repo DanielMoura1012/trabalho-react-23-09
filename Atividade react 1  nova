@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />    
+    <title>Tabela de Jogos</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      th {        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabela de Jogos</h1>
+    <table>
+      <head>
+        <tr>
+          <th>Nome do Jogo</th>
+          <th>Plataforma</th>
+          <th>Ano de Lançamento</th>
+        </tr>
+      </head>
+      <body>
+        <tr>
+          <td>Gran Turismo 7</td>
+          <td>Playstation 4</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>God of War Ragnarok</td>
+          <td>PlayStation 4</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>Hogwarts legacy</td>
+          <td>PlayStation 4</td>
+          <td>2023</td>
+        </tr>
+      </body>
+    </table>
+  </body>
+</html>
